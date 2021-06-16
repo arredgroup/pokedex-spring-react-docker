@@ -1,0 +1,11 @@
+com/arredgroup/pokemonBackend/models/DescriptionJson.class
+com/arredgroup/pokemonBackend/models/PokemonJson.class
+com/arredgroup/pokemonBackend/models/PokemonSprites.class
+com/arredgroup/pokemonBackend/models/Sprite.class
+com/arredgroup/pokemonBackend/models/PokemonDescription.class
+com/arredgroup/pokemonBackend/models/Info.class
+com/arredgroup/pokemonBackend/models/Abilities.class
+com/arredgroup/pokemonBackend/models/Type.class
+com/arredgroup/pokemonBackend/models/Chain.class
+com/arredgroup/pokemonBackend/models/EvolutionJson.class
+com/arredgroup/pokemonBackend/models/Description.class

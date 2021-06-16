@@ -7,13 +7,24 @@ services:
     volumes:
       - ./be:/app
     ports:
-      - "8080"
+      - "8080:8080"
+    networks:
+      - app-network
   fe:
     build:
       context: .
       dockerfile: Dockerfile-fe
     volumes:
       - ./fe:/app
+      - /app/node_modules
     ports:
-      - "3000:3000"
-    tty: true      
+      - "80:3000"
+    tty: true
+    stdin_open: true
+    networks:
+      - app-network
+
+#Docker Networks
+networks:
+  app-network:
+    driver: bridge

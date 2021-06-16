@@ -1,6 +1,16 @@
-FROM node
-# WORKDIR /app
-EXPOSE 8080
-COPY ./run-fe.sh /run.sh
-RUN chmod +x /run.sh
-CMD ["/run.sh"]
+FROM node:alpine
+WORKDIR /app/
+RUN mkdir -p /app/node_modules
+COPY ./fe/package.json ./
+
+RUN apk --no-cache --virtual build-dependencies add \
+    python2 \
+    make \
+    g++ \
+    && npm install \
+    && apk del build-dependencies
+
+COPY ./fe/ ./
+
+EXPOSE 3000
+CMD ["npm", "start"]

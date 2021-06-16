@@ -5,4 +5,6 @@ if [ ! -f ./package.json ]; then
     create-react-app .
 fi
 chmod -R 777 .
-yarn start
+npm install
+npm start
+

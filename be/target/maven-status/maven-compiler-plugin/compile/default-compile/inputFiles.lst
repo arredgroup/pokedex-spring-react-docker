@@ -1,0 +1,15 @@
+/app/src/main/java/com/arredgroup/pokemonBackend/models/Pokemon.java
+/app/src/main/java/com/arredgroup/pokemonBackend/resources/PokemonResource.java
+/app/src/main/java/com/arredgroup/pokemonBackend/models/PokemonDescription.java
+/app/src/main/java/com/arredgroup/pokemonBackend/models/Evolution.java
+/app/src/main/java/com/arredgroup/pokemonBackend/models/PokemonJson.java
+/app/src/main/java/com/arredgroup/pokemonBackend/models/DescriptionJson.java
+/app/src/main/java/com/arredgroup/pokemonBackend/models/Description.java
+/app/src/main/java/com/arredgroup/pokemonBackend/models/Chain.java
+/app/src/main/java/com/arredgroup/pokemonBackend/models/EvolutionJson.java
+/app/src/main/java/com/arredgroup/pokemonBackend/models/PokemonSprites.java
+/app/src/main/java/com/arredgroup/pokemonBackend/models/Sprite.java
+/app/src/main/java/com/arredgroup/pokemonBackend/PokemonBackendApplication.java
+/app/src/main/java/com/arredgroup/pokemonBackend/models/Info.java
+/app/src/main/java/com/arredgroup/pokemonBackend/models/Type.java
+/app/src/main/java/com/arredgroup/pokemonBackend/models/Abilities.java
